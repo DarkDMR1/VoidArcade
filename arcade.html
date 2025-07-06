@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+              @font-face {
+                    font-family: 'customfont';
+                    src: url('customfont.woff');
+                }
+            html, body{
+                margin:0;
+                min-height: 100%;
+                overflow-x: hidden;
+            }
+            body{
+                background-image: url('wp7283212-4k-space-wallpapers.jpg');
+                 background-size: cover;
+                background-repeat: no-repeat;
+                font-family: 'Courier New', Courier, monospace;
+             
+            }
+             .top-bar{
+                background-color: rgba(0, 0 , 0, 0.5);
+                display: flex;
+                justify-content: space-between;
+                color:white;
+                padding-left:20px;
+                padding-right:20px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: larger;
+                font-family: 'customfont';
+            }
+            a:hover{
+                color:red;
+            }
+            h1{
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.5);
+                width:fit-content;
+                color: red;
+                border: 3px solid white;
+                border-radius:10px;
+                font-family: 'customfont';
+                font-size: xx-large;
+                margin:0 auto;
+                margin-top:20px;
+                padding:3px;
+                font-weight: 900;
+            }
+            img{
+                width:200px;
+                height:200px;
+                border-radius: 10px;
+                background-color: white;
+            }
+            .content{
+                display:flex;
+                justify-content: center;
+                gap:80px;
+            }
+            h2{
+                margin-top:70px;
+                text-align: center;
+                
+            }
+            @media (max-width:480px){
+                .top-bar{
+                background-color: rgba(0, 0 , 0, 0.5);
+                justify-content: space-between;
+                color:white;
+                display: flex;
+                width:90%;
+                margin-bottom:70px;
+            }
+            .content{
+                width: 90%;
+                gap:20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            h1{
+                margin:5px;
+            }
+            body{
+                background-size: cover;
+            }
+            .main-content{
+                justify-content: center;  
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+          @media (min-width:1px) and (max-width:700px){
+              .content{
+                 width: 90%;
+                gap:20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .main-content{
+              justify-content: center;  
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+         @media (min-width:768px) and (max-width:1024px){
+              .content{
+                 width: 90%;
+                gap:20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .main-content{
+              justify-content: center;  
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        </style>
+    </head>
+    <body>
+         <div class="top-bar">
+               <a href="home.html">Home</a></li>
+                <a href="aboutus.html">About Us</a></li>
+                <a href="arcade.html">Arcade</a></li>
+        </div>
+        <h1>Welcome to the Arcade</h1>
+        <div class="main-content">
+        <div class="content">
+            <div class="content-box">
+                <h2><a href="memory.html">Memory</a></h2>
+                <img src="https://play-lh.googleusercontent.com/85TEtx2kehCbLUug7LDyt2X4UmcFyzOXJ7SonIGo5SEEhtjn-w4naLMKzk8ozvtOFwE"alt="memory">
+            </div>
+            <div class="content-box">
+                <h2><a href="tictactoe.html">TicTacToe</a></h2>
+                <img src="https://static.vecteezy.com/system/resources/previews/021/858/305/non_2x/abstract-tic-tac-toe-for-fashion-and-web-design-vector.jpg"alt="tictactoe">
+            </div>
+            <div class="content-box">
+                <h2><a href="connect4.html">Connet4</a></h2>
+                <img src="https://ecdn.teacherspayteachers.com/thumbitem/Connect4-PowerPoint-Template-Create-Your-Own-Review-Game-1656583721/original-412622-1.jpg"alt="memory">
+            </div>
+            </div>
+            <div class="content">
+             <div class="content-box">
+                <h2><a href="Slither.io.html">Slither.io</a></h2>
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/50/Slither.png"alt="memory">
+            </div>
+             <div class="content-box">
+                <h2><a href="Geometrydash.html">Geometry Dash</a></h2>
+                <img src="https://assets-prd.ignimgs.com/2021/12/14/geometrydash-1639510868467.jpg"alt="memory">
+            </div>
+              <div class="content-box">
+                <h2><a href="minecraft.html">Minecraft</a></h2>
+                <img src="https://upload.wikimedia.org/wikipedia/en/b/b6/Minecraft_2024_cover_art.png"alt="memory">
+            </div>
+        </div>
+        </div>
+        </body>
+        </html>
